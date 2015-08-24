@@ -1,5 +1,13 @@
 {
+    "name": "gianarb/penny-foldering",
+    "description": "light penny skeleton application",
+    "license": "MIT",
     "require": {
         "gianarb/penny": "dev-master"
+    },
+    "autoload": {
+	"psr-4": {
+	    "PennyApp\\": "./app"
+	}
     }
 }
