@@ -3,9 +3,9 @@ It contains only foldering, no components or other things.
 
 ## Install
 ```bash
-git clone git@github.com:gianarb/penny-foldering
-cd penny-foldering
-composer install
+$ git clone git@github.com:gianarb/penny-foldering
+$ cd penny-foldering
+$ composer install
 ```
 
 ## Foldering
@@ -21,11 +21,11 @@ composer install
 └── vendor
 ```
 
-* `app` contains application files, Controller, Service, Entity...
-* `public` entry point of application
-* `config` default path to load dependency injection configuration
+* `app` contains application files, Controller, Service, Entity, etc.
+* `public` entry point of application.
+* `config` default path to load dependency injection configuration.
 
 ## WebServer
 ```bash
-php -S 127.0.0.0:8087 -t public
+$ php -S 127.0.0.0:8087 -t public
 ```
